@@ -1,0 +1,29 @@
+body{
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: #F50;
+}
+
+nav ul{
+    padding-left:0;
+}
+
+nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+ nav a{
+     display: inline-block;
+     padding: 1em;
+     text-decoration: none;
+     color:#FFF;
+     transition: all 900ms;
+ }
+ 
+ nav a:hover,
+ nav a:focus {
+     background-color: #D30;
+     /*color: #000;*/
+ }
